@@ -1,71 +1,68 @@
 ---
+title: Alpha2
 layout: default
 ---
-<div class="home">
-  <article class="home-feature-image" >
-  <div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
-  <header style="background-image: url('{{ site.imageurl }}')">
-    <p class="call-out-content"> {{ site.theme.header_text }} </p>
-  </header>
-  </article>
+<section class="box special">
+	<header class="major">
+		<h2>Introducing the ultimate mobile app10
+		<br />
+		for doing stuff with your phone</h2>
+		<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
+		adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+	</header>
+	<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></span>
+</section>
 
-	<div class="posts">
-	{% for post in paginator.posts %}
-		{% include post_tags_category.html %}
-		<div class="post-teaser">
-		  <header>
-		    <h1>
-		      <a id="post-link-trans" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-		        {{ post.title }}
-		      </a>
-		    </h1>
-		    <p id="subtitletrans" class="subtitlecontainer">
-		      <a class="subtitle">{{ post.date | date: "%Y年%m月%-d日" }}</a>
-		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
-		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
-		    </p>
-		  </header>
-		  <div class="excerpt">
-		  {% assign num = post.content | number_of_words %}
-		  {% if  num  < site.theme.visiblewords %}
-		    {{ post.content }}
-		  {% else %}
-		    {{ post.content | truncatewords: site.theme.visiblewords }}
-		    <p>
-		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
-		      {{ site.theme.str_continue_reading }}
-		    </a>
-		    </p>
-		  {% endif %}
-		  </div>
-		</div>
-		{% endfor %}
+<section class="box special features">
+	<div class="features-row">
+		<section>
+			<span class="icon major fa-bolt accent2"></span>
+			<h3>Magna etiam</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+		<section>
+			<span class="icon major fa-area-chart accent3"></span>
+			<h3>Ipsum dolor</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
 	</div>
+	<div class="features-row">
+		<section>
+			<span class="icon major fa-cloud accent4"></span>
+			<h3>Sed feugiat</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+		<section>
+			<span class="icon major fa-lock accent5"></span>
+			<h3>Enim phasellus</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+		</section>
+	</div>
+</section>
 
-	<div class="wp-pagenavi">
-	    <span class='pages'>第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页</span>
+<div class="row">
+	<div class="6u">
 
-	    {% if paginator.previous_page %}
-	    	<a class="previouspostslink" rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" > « </a>
-	    {% endif %}
+		<section class="box special">
+			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></span>
+			<h3>Sed lorem adipiscing</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<ul class="actions">
+				<li><a href="#" class="button alt">Learn More</a></li>
+			</ul>
+		</section>
 
-	      {% if paginator.page == 1 %}
-	        <span class="current">1</span>
-	      {% else %}
-	        <a class="page larger" href="/">1</a>
-	      {% endif %}
-	   
-	    {% for count in (2..paginator.total_pages) %}
-	        {% if count == paginator.page %}
-	          <span class="current">{{ count }}</span>
-	        {% else %}
-	          <a class="page larger" href="{{ site.baseurl }}/blog/page{{ count }}">{{ count }}</a>
-	        {% endif %}
-	    {% endfor %}
+	</div>
+	<div class="6u">
 
-	    {% if paginator.next_page %}
-	    	<a class="nextpostslink" rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" > » </a>
-	    {% endif %}
+		<section class="box special">
+			<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></span>
+			<h3>Accumsan integer</h3>
+			<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+			<ul class="actions">
+				<li><a href="#" class="button alt">Learn More</a></li>
+			</ul>
+		</section>
 
 	</div>
 </div>
