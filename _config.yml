@@ -6,7 +6,7 @@ imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unspl
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: YOUR TITLE
+  title: 豆瓣怎么办的博客
   #avatar: avatar.png
   hometitle: Home #display on navigation menu.
   yoursitetitle: YOUR LOGO
@@ -30,7 +30,7 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: "fengzhichu"
+  github: "xiuxingsang"
   weibo: 
   google_plus:
   instagram:
@@ -41,7 +41,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "fengzhichu"
+  twitter: "xiuxingsang"
   wordpress:
   youtube:
 
