@@ -9,13 +9,13 @@ theme:
   title: 朱琛的博客
   #avatar: avatar.png
   hometitle: Home #display on navigation menu.
-  yoursitetitle: 豆瓣怎么办
+  yoursitetitle: CodePig的博客
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
   visiblewords: 300
   # Header and footer text
   header_text: >
-     一只喜欢设计却敲着代码的猪的博客
+     初出茅庐的CodePig的博客
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
