@@ -21,6 +21,9 @@ tags: []
 <blockquote>一个带单边框样式的文本段落</blockquote>
 
 正常的文本样式
+*斜体编辑可以用command+I*
+
+**粗体编辑可以用command+B**
 
 ## 无序的表
 * 表中条目
