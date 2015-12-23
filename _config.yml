@@ -24,7 +24,7 @@ theme:
 
   # Icons
   rss: false
-  email_address: "sam@example.com" # Full email address, e.g. "sam@example.com"
+  email_address: "zhuchen3350@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -66,7 +66,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com"
+enforce_ssl: "xiuxingsang.github.com"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: blog/:title/ 
