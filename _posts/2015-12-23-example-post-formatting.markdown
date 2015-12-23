@@ -53,3 +53,37 @@ tags: []
 </dl>
 
 正常样式文本段落。
+> 引用别人的文章的时候，使用>带上文本段落；
+
+
+
+***
+####插入连接
+[百度](http:www.baidu.com)
+####插入图片
+![Mou icon](http://mouapp.com/Mou_128.png)
+
+**这里是粗体**
+
+*这里是斜体*
+***
+####插入代码
+` - (void)getCaroData {
+    [MHNetWorkTask getWithURL:kMintHomePageCaro withParameter:nil withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
+        NSDictionary *data = result[@"data"];
+        NSArray *array = data[@"banners"];
+        NSMutableArray * mutable = [[NSMutableArray alloc] initWithCapacity:0];
+        for (NSDictionary * dic in array) {
+            MHMintCaroModel *mintCaroModel = [[MHMintCaroModel alloc] initWithDataSource:dic];
+            [mutable addObject:mintCaroModel];
+        }
+        self.mintCaroModelArray = [NSArray arrayWithArray:mutable];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            UICollectionView *collectionView = [self.view viewWithTag:1002];
+            [collectionView reloadData];
+        });
+    } withFail:^(NSError * error) {
+        
+    }];
+}`
