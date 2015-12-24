@@ -67,8 +67,17 @@ theme:
 
 # PAGINATION
 enforce_ssl: "xiuxingsang.github.com"
+
+# 开启分页功能
+# 需要分几页
 paginate: 5
+# 下边是对需要带有分页页面的配置
 paginate_path: "blog/page:num"
+# blog/index.html将会读取这个设置，把他传给每个分页页面，然后从
+# 第 2 页开始输出到 blog/page:num ， :num 是页码。如果有 12 
+# 篇文章并且做如下配置 paginate: 5 ， Jekyll会将前 5 篇文章写入 
+# blog/index.html ，把接下来的 5 篇文章写入 blog/page2/index.html，
+# 最后 2 篇写入 blog/page3/index.html
 permalink: blog/:title/ 
 
 # Posted in ... with ...
