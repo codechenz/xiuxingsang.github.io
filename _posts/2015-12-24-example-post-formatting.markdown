@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "译:网上可以免费获取的500+资源"
-date:   2015-12-23
+title:  "网上可以免费获取的500+资源 「译」"
+date:   2015-12-24
 author: 朱琛
 category: ios
 tags: []
