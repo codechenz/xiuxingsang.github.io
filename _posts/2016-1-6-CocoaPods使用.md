@@ -7,7 +7,7 @@ category: ios
 tags: [ios]
 ---
 
-## cocoaPods使用
+## CocoaPods使用
 
 ### 导语
 
