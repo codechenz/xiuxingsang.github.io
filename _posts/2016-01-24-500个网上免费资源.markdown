@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "网上你应该知道的500+免费资源 「译」"
-date:   2015-12-24
+date:   2016-01-24
 author: 朱琛
 category: ios
 tags: []
@@ -46,4 +46,6 @@ tags: []
 * [betterexplained](http://betterexplained.com/)--一个能够详细准确的讲述概念问题的数学课堂
 * [Mathway](http://mathway.com/)--聚集了专门解决数学难题的人
 * [Wolfram Alpha](http://www.wolframalpha.com/)--
+
+*未完待续。。。*
 
