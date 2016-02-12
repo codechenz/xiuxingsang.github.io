@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  iOS 应用的国际化 「转」
@@ -10,8 +9,6 @@ tags: []
 # iOS 应用的国际化
 
 
-
-2014 年 4 月 23 日更新：本文最初由 [Sean Berry](http://twitter.com/regularberry) 编写， 因为 iOS 7，现在由 [Ali Hafizji](http://www.raywenderlich.com/u/ali.hafizji) 将此文全面更新。
 
 <blockqu创造出色应用算得上是不小的壮举，除开伟大的代码、华丽的设计以及直观的交互外，还有更多要做的事。要爬上 App Store 的排行榜需要适时的产品营销、跟随着用户群不断扩大的能力，以及利用工具和技术尽可能广泛地达到越多的受众越好。
 
