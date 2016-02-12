@@ -5,7 +5,7 @@ permalink: /About/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-<blockquote>About CodePig</blockquote>
+<blockquote>在此将介绍我自己和我做过的一些项目和DEMO</blockquote>
 
 ###关于我
   Hi,我是<b>朱琛</b>,一个前端开发工程师，12级计算机专业；
