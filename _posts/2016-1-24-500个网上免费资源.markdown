@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "网上你应该知道的500+免费资源 「译」"
-date:   2016-01-24
+date:   2016-1-24
 author: 朱琛
 category: ios
 tags: []
