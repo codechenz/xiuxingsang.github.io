@@ -5,7 +5,6 @@ permalink: /About/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-# 关于
-##加个照片试试
+<blockquote>希望写出优雅的代码，找到向往的明天</blockquote>
 
 
