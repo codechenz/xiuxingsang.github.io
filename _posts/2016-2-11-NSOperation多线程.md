@@ -9,7 +9,7 @@ tags: []
 
 ##导语
 
-<blockquote>NSOperation是苹果在iOS4之后推出的一种多线程实现方式，本身是对GCD的一种封装实现，相对于GCD来说有可控性强，可加入操作依赖等优势。NSOperation是一个抽象的基类，可以为子类提供有用且线程安全的建立状态，优先级，依赖和取消等操作。下面我们来看看简单的一些实现。<blockquote>
+<blockquote>NSOperation是苹果在iOS4之后推出的一种多线程实现方式，本身是对GCD的一种封装实现，相对于GCD来说有可控性强，可加入操作依赖等优势。NSOperation是一个抽象的基类，可以为子类提供有用且线程安全的建立状态，优先级，依赖和取消等操作。下面我们来看看简单的一些实现。</blockquote>
 
 
 ###NSOperation类
