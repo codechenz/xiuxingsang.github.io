@@ -6,16 +6,16 @@ imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unspl
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Siyao.Wang的博客
+  title: 修行桑的博客
   #avatar: avatar.png
   hometitle: Home #display on navigation menu.
-  yoursitetitle: Siyao.Wang的博客
+  yoursitetitle: 修行桑的博客
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
   visiblewords: 300
   # Header and footer text
   header_text: >
-     初出茅庐的Siyao.Wang的博客
+     初出茅庐的修行桑的博客
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
@@ -24,7 +24,7 @@ theme:
 
   # Icons
   rss: false
-  email_address: "wangsiyao0724@outlook.com" # Full email address, e.g. "sam@example.com"
+  email_address: "zhuchen3350@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -41,7 +41,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "Siyao_Wang"
+  twitter: "ZhuChen"
   wordpress:
   youtube:
 
