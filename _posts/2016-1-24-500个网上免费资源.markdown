@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "网上你应该知道的500+免费资源 「译」"
+date:   2016-1-24
+author: 朱琛
+category: ios
+tags: []
+---
+
+## 网上你应该知道的500+免费资源
+
+<blockquote>我会持续更新这个帖子,如果你觉得这个帖子对你来说是收益的,那么请关注这个帖子吧.当然了如果你有其他的一些免费资源的话,那么你也可以在评论区中告诉我!先说声谢谢咯.我们将会对帖子完善,更新,重新排版.直到2016年1月1日截止更新.</blockquote>
+
+多谢各位的支持,一些读者想要一个短链接当做书签保存,应读者的要求我做了一个[资源盒子链接](http://www.boxofsquare.com/),同时我也会在这上面更新这个免费的列表.
+
+[资源盒子](http://www.boxofsquare.com/)将会同步我添加的新资源在[http://www.boxofsquare.com/](http://www.boxofsquare.com/)
+
+###书籍类
+
+![bookImage](https://cdn-images-1.medium.com/max/800/1*SIkYbXQ5Ccj9GP6bIba2uQ.jpeg)
+
+* [Project Gutenberg](http://www.gutenberg.org/)(古登堡计划?)--免费的书籍
+* [OpenLibrary](https://openlibrary.org/)--可以下载免版权的书籍,有版权的书籍只能借阅
+* [Feedbooks](http://www.feedbooks.com/)
+* [SmashWords](https://www.smashwords.com/books/category/1/newest/0/free/any)--免费的音频书籍
+* [LibriVox](https://librivox.org/)
+* [Podiobooks.com](http://podiobooks.com/)--多数来源于自出版的作者们的免费的音频书籍
+
+###语言类
+![languagesImage](https://d262ilb51hltx0.cloudfront.net/max/1600/1*vCZBn50c1iyJrj1mUScGUQ.jpeg)
+
+* [Doulingo](https://www.duolingo.com/)--免费学习一门语言.
+* [FSI Language courses](http://fsi-language-courses.org/Content.php)--免费语言学习
+* [Memrise](http://www.memrise.com/)--一个有趣的学习外语的网站,通过认知卡,和一些简简单单的生活小事去学习难记的单词.而且不只可以学习外语,它还包含了历史,科学等科目.
+* [Anki](http://ankisrs.net/)--Anki是一个通过寻找单词之间相似的关系去进行类比记忆的学习网站,它让背单词变得有趣和简单.
+* [Lingvist](https://www.lingvist.io/)--200小时学习一门语言
+* [Busuu](https://www.busuu.com/)--一个免费学习语言的论坛
+* [BliuBliu](https://bliubliu.com/)--听写单词网站(重点是没有翻译,而是用外语去解释外语)
+* [Lang8](http://www.lang-8.com/)--一个练习拼写单词,用纯正的发音去矫正你的发音的网站.
+* [ielanguages](http://ielanguages.com/)--一种非交谈式的外语学习网站(内容非常的广泛)
+
+###作业类
+
+![homework](https://cdn-images-1.medium.com/max/1600/1*mff7dizzurr56Iddu9txJw.jpeg)
+
+* [betterexplained](http://betterexplained.com/)--一个能够详细准确的讲述概念问题的数学课堂
+* [Mathway](http://mathway.com/)--聚集了专门解决数学难题的人
+* [Wolfram Alpha](http://www.wolframalpha.com/)--
+
+*未完待续。。。*
+
