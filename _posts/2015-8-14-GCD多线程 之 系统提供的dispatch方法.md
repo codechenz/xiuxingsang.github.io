@@ -1,4 +1,4 @@
----
+de---
 layout: post
 title:  GCD多线程 之 系统提供的dispatch方法
 date:   2015-8-14
