@@ -70,7 +70,7 @@ enforce_ssl: "xiuxingsang.github.com"
 
 # 开启分页功能
 # 需要分几页
-paginate: 5
+paginate: 20
 # 下边是对需要带有分页页面的配置
 paginate_path: "blog/page:num"
 # blog/index.html将会读取这个设置，把他传给每个分页页面，然后从
