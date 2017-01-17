@@ -6,21 +6,21 @@ imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unspl
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: 修行桑的博客
+  title: 朱琛的博客
   #avatar: avatar.png
   hometitle: Home #display on navigation menu.
-  yoursitetitle: 修行桑的博客
+  yoursitetitle: CodePig的博客
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
   visiblewords: 300
   # Header and footer text
   header_text: >
-     初出茅庐的修行桑的博客
+     初出茅庐的CodePig的博客
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
   footer_text: >
-   <a href="https://www.wsiyao.com">YOUR TITLE</a> 
+   <a href="https://xiuxingsang.github.io">YOUR TITLE</a> 
 
   # Icons
   rss: false
@@ -30,8 +30,8 @@ theme:
   dribbble:
   facebook:
   flickr:
-  github: 
-  weibo: "http://weibo.com/1833466622"
+  github: "Github.com/xiuxingsang"
+  weibo: "weibo.com/zhu3350"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -41,7 +41,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "ZhuChen"
+  twitter: "朱琛"
   wordpress:
   youtube:
 
@@ -66,7 +66,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: 
+enforce_ssl: "xiuxingsang.github.com"
 
 # 开启分页功能
 # 需要分几页

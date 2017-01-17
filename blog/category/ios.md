@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: '产品'
-category: pm
-permalink: /pm/
+title: 'iOS开发'
+category: ios
+permalink: /iOS/
 ---
