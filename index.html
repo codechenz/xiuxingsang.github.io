@@ -1,71 +1,83 @@
 ---
-layout: default
+layout: blog
+title: index
+permalink: /
 ---
-<div class="home">
-  <article class="home-feature-image" >
-  <div style="background-image: url('{{ site.baseurl }}/{{ site.theme.place_holder_image }}')"/>
-  <header style="background-image: url('{{ site.imageurl }}')">
-    <p class="call-out-content"> {{ site.theme.header_text }} </p>
-  </header>
-  </article>
 
-	<div class="posts">
-	{% for post in paginator.posts %}
-		{% include post_tags_category.html %}
-		<div class="post-teaser">
-		  <header>
-		    <h1>
-		      <a id="post-link-trans" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-		        {{ post.title }}
-		      </a>
-		    </h1>
-		    <p id="subtitletrans" class="subtitlecontainer">
-		      <a class="subtitle">{{ post.date | date: "%Y年%m月%-d日" }}</a>
-		      {% if post.author %} | <a class="subtitle" href="{{ site.baseurl }}/about/">{{ post.author }}</a>{% endif %}
-		      {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
-		    </p>
-		  </header>
-		  <div class="excerpt">
-		  {% assign num = post.content | number_of_words %}
-		  {% if  num  < site.theme.visiblewords %}
-		    {{ post.content }}
-		  {% else %}
-		    {{ post.content | truncatewords: site.theme.visiblewords }}
-		    <p>
-		    <a class="text" href="{{ post.url | prepend: site.baseurl }}">
-		      {{ site.theme.str_continue_reading }}
-		    </a>
-		    </p>
-		  {% endif %}
-		  </div>
-		</div>
-		{% endfor %}
-	</div>
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                {% for section in site.data.landing %}
+                    <li>
+                      <a class="page-scroll" href="#{{ section.id }}">
+                        <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+                      </a>
+                    </li>
+                {% endfor %}
 
-	<div class="wp-pagenavi">
-	    <span class='pages'>第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页</span>
-
-	    {% if paginator.previous_page %}
-	    	<a class="previouspostslink" rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" > « </a>
-	    {% endif %}
-
-	      {% if paginator.page == 1 %}
-	        <span class="current">1</span>
-	      {% else %}
-	        <a class="page larger" href="/">1</a>
-	      {% endif %}
-	   
-	    {% for count in (2..paginator.total_pages) %}
-	        {% if count == paginator.page %}
-	          <span class="current">{{ count }}</span>
-	        {% else %}
-	          <a class="page larger" href="{{ site.baseurl }}/blog/page{{ count }}">{{ count }}</a>
-	        {% endif %}
-	    {% endfor %}
-
-	    {% if paginator.next_page %}
-	    	<a class="nextpostslink" rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" > » </a>
-	    {% endif %}
-
-	</div>
+                {% for language in site.data.language %}
+                  <li>
+                    <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+                      <img src="{{ language.flag | prepend: site.baseurl }}" height="16px" width="16px">
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+{% for section in site.data.landing %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
+    {% include sections/{{section.tpl}} %}
+  </section>
+{% endfor %}
+<iframe src="http://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>

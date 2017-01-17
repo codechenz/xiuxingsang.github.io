@@ -1,48 +1,26 @@
 <!DOCTYPE html>
-<!--[if IE 6]>
-<html id="ie6" lang="zh-CN">
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7" lang="zh-CN">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" lang="zh-CN">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
-<html lang="zh-CN" class="js">
-<!--<![endif]-->
-  {% include head.html %}
-  <body class="home blog et_pb_button_helper_class home-posts et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_right_sidebar chrome">
-    <div id="page-container">
-        {% include header.html %}
-        <div id="et-main-area">
-            {{ content }}
-        </div> <!-- #et-main-area -->
+<html>
 
-<div id="SOHUCS"></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = 'cys9V4caX'; 
-var conf = '89b5e0a4abf032e25a1beaa70c4c928d'; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) { 
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); 
-</script>
-        
-    </div> <!-- #page-container -->
-    {% include footer.html %}
-    {% include script.html %}
+	{% if page.title != 'index' %}
+	    {% include head.html %}
+	{% else %}
+		{% include index_head.html %}
+	{% endif %}
 
-    
 
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-71728288-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<body id="page-top" class="landing-page">
 
-  </body>
+	{% if page.title != 'index' %}
+	    {% include header.html %}
+	{% endif %}
+
+    {{ content }}
+
+	{% if page.title != 'index' %}
+	    {% include footer.html %}
+	{% else %}
+		{% include index_foot.html %}
+	{% endif %}
+
+</body>
 </html>
