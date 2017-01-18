@@ -868,7 +868,7 @@
 			logo_height_base     = is_fixed_nav ? top_nav_height : top_nav_fixed_height,
 			logo_wrapper_width,
 			logo_wrapper_height;
-// index
+
 		// Fix for inline centered logo in horizontal nav
 		if ( is_header_split && ! is_vertical_nav ) {
 			// On page load, logo_height_base should be top_nav_height

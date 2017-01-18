@@ -1,37 +1,37 @@
 # SITE CONFIGURATION
-baseurl: "" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
-url: "https://xiuxingsang.github.io/" # the base hostname & protocol for your site
+baseurl: "/fengzhichu-theme" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
+url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: CodePig的博客
+  title: YOUR TITLE
   #avatar: avatar.png
-  hometitle: 首页 #display on navigation menu.
-  yoursitetitle: CodePig的博客
+  hometitle: Home #display on navigation menu.
+  yoursitetitle: YOUR LOGO
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
   visiblewords: 300
   # Header and footer text
   header_text: >
-     初出茅庐的CodePig的博客
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
   footer_text: >
-   <a href="https://xiuxingsang.github.io">YOUR TITLE</a> 
+   <a href="https://yoursite.com">YOUR TITLE</a> 
 
   # Icons
   rss: false
-  email_address: "zhuchen3350@gmail.com" # Full email address, e.g. "sam@example.com"
+  email_address: "sam@example.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "Github.com/xiuxingsang"
-  weibo: "weibo.com/zhu3350"
+  github: "fengzhichu"
+  weibo: 
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -41,7 +41,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "朱琛"
+  twitter: "fengzhichu"
   wordpress:
   youtube:
 
@@ -66,18 +66,9 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "xiuxingsang.github.com"
-
-# 开启分页功能
-# 需要分几页
+enforce_ssl: "fengzhichu.com"
 paginate: 5
-# 下边是对需要带有分页页面的配置
 paginate_path: "blog/page:num"
-# blog/index.html将会读取这个设置，把他传给每个分页页面，然后从
-# 第 2 页开始输出到 blog/page:num ， :num 是页码。如果有 12 
-# 篇文章并且做如下配置 paginate: 5 ， Jekyll会将前 5 篇文章写入 
-# blog/index.html ，把接下来的 5 篇文章写入 blog/page2/index.html，
-# 最后 2 篇写入 blog/page3/index.html
 permalink: blog/:title/ 
 
 # Posted in ... with ...
