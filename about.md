@@ -5,84 +5,63 @@ permalink: /About/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-# Fengzhichu Theme
+<blockquote>在此将介绍我自己和我做过的一些项目和DEMO</blockquote>
 
-A jekyll theme for personal blog which based on [Type theme](https://github.com/rohanchandra/type-theme) and [ibireme's blog](http://blog.ibireme.com). Add several useful features. Fengzhichu Theme is powered by [Jekyll](http://jekyllrb.com/) and freely
-hosted in [Github pages](https://pages.github.com/).
+##关于我
+  Hi,我是<b>朱琛</b>,一个前端开发工程师，12级计算机专业；
 
-## How to use it
-* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
-* Rename repo as 'yourusername.github.io'.
-* You can delete gh-pages branch if you want.
-* Clone your <b>master branch</b> to local directory.
-* Custom the '_config.yml' to your style.
-* Run jekyll serve -w.
+ 两年实战开发经验，多款上架项目和[github](https://github.com/xiuxingsang)代存demo；有良好的面向对象编程思想,热爱编程。
+  
+  有一定的H5开发经验；有较强的学习能力，喜欢看技术方面的书籍不断扩充新知识；善于学习和运用新知识，思维敏捷，喜欢钻研，并将钻研的新知识总结归纳到笔记和上传到个人技术博客；有较强的责任心和一定的调试水平，对待事情力求完美，希望能写出优雅的代码。
+  
+##关于项目
 
-## Customization
+###居加App Objective-C
 
-###_config.yml
-Some important configurations.
+####项目描述
 
-* imageurl: Randomly change image which display on top of site.
-  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
-* title: Display on browse tab.
-* hometitle: The first menu name of navigation bar.
-* yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
-* sechby:
-  * category: "Posted in" #Words before Category name.
-  * tag: "with" #Words before Tag name.
-  * example: Posted in 'Category name' with 'Tag name'.
+  居加是一款主打简洁风格的家居装修设计指南APP。现已在AppStore上架出售。致力于为用户提供当下最流行的家居风格，用户不仅可以在“居加”中获取感兴趣的装修设计风格，还可以通过链接购买家居中的单品。通过与其他用户的互动交流获取更多的装修经验。
+ 
+####责任描述
+ 
+  项目为独立开发，遵循软件开发流程，独立进行应用及人机界面软件模块的设计和实现，独立负责开发和维护。撰写开发文档。使用MVC的设计模式，根据需求和公开的接口建立模型层，独立完成所有视图层的UI设计与布局，良好的封装思想减少了控制层的代码臃肿问题。使用多线程开发，优化了用户体验。 适量的使用XIB对页面进行快速开发。
+  
+  ***
+  
+###黑白校园App Objective-C
 
-###Tags
-Add new tag.
+####项目描述
 
-* Annotate your post entry front-matter block as usual:
+黑白校园是一款专注大学生，专注高校生活服务，黑白校园致力于打造“最贴近大学生，最懂大学生”的高校生活服务社区平台APP，满足大学生从入学到毕业的大多数生活需求，致力于帮助大学生度过一个更加愉快的大学生活。
 
-```
-		---
-		layout: post
-		title: How To Use Tags And Categories On GitHub Pages Without Plugins
-		category: programming
-		tags: [github, github-pages, jekyll]
-		---
-```
+####责任描述
 
-* Add an entry in your _data/tags.yml for every tag.
+以iOS开发实习生的身份进入黑白校园项目iOS开发组，负责版本迭代，实现项目经理提出的功能模块，调整部分页面布局，修复bug，撰写文档等工作。
 
-```
-		- slug: github-pages
-		  name: GitHub Pages
-```
+***
 
-* Create a .md file which name is your Tag slug for every tag.
+###音悦台视频播放DEMO Objective-C
 
-```
-		---
-		layout: blog_by_tag
-		tag: github-pages
-		permalink: /blog/tag/github-pages/
-		---
-  ```
+####DEMO描述
 
-###Categories
-Similar as Tags.
+仿照音悦台MV播放界面设计实现的一款视频播放器；使用AVPlayer框架。已上传至Github
 
-## Thanks
-* Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
-* Navigation bar: [ibireme's blog](http://blog.ibireme.com)
-* Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+####责任描述
 
-## Enjoy
-- If you like, please star it. Thank you!
-- Enjoy it!
+独立实现播放、暂停、缓存、快进、全屏等视频基本功能。
 
-## Copyright & License
-Copyright (C) 2015 - Released under the MIT License.
+***
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+###QQ音乐播放器DEMO Objective-C
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+####DEMO描述
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+仿照QQ音乐播放界面完成的一款简单音乐播放器。
+
+####责任描述
+
+独立实现播放、后台播放、播放模式切换等音乐播放基本功能。
+
+
+
+
