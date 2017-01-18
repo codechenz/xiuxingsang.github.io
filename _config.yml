@@ -8,7 +8,7 @@ theme:
   # Meta
   title: CodePig的博客
   #avatar: avatar.png
-  hometitle: Home #display on navigation menu.
+  hometitle: home #display on navigation menu.
   yoursitetitle: CodePig的博客
   gravatar: # Email MD5 hash
   description: "used by search engines" # used by search engines
